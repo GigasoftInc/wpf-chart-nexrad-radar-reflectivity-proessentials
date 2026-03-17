@@ -1,0 +1,18 @@
+<Window x:Class="NexradRadar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Gigasoft="clr-namespace:Gigasoft.ProEssentials;assembly=Gigasoft.ProEssentialsWpf"
+        mc:Ignorable="d"
+        Title="ProEssentials — NEXRAD WSR-88D Radar Reflectivity"
+        Height="900" Width="1400"
+        MinHeight="500" MinWidth="900"
+        UseLayoutRounding="True"
+        Closing="Window_Closing">
+
+    <Grid>
+        <Gigasoft:PesgoWpf x:Name="Pesgo1" Loaded="Pesgo1_Loaded" />
+    </Grid>
+
+</Window>
