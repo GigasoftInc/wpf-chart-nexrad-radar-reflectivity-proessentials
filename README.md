@@ -5,7 +5,7 @@ radar data displayed as a 2D contour chart using the official NWS standard
 reflectivity color table. Real weather radar data from KFWS (Dallas/Fort Worth),
 March 4, 2025.
 
-![ProEssentials NEXRAD Radar Chart](https://gigasoft.com/wpf-chart/screenshots/screen120.png)
+![ProEssentials NEXRAD Radar Chart](docs/Wpf-NexRad-2D-Contour-Gigasoft-120.png)
 
 ➡️ [gigasoft.com/examples/120](https://gigasoft.com/examples/120)
 
